@@ -1,7 +1,26 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { Swal } from "sweetalert2";
+import { AuthContext } from "../../providers/AuthProvider";
 
 const Navbar = () => {
-  const user = false;
+  const { user, logOut } = useContext(AuthContext);
+
+  const handleLogOut = () => {
+    logOut()
+      .then(() => {
+        Swal.fire({
+          position: "top-end",
+          icon: "success",
+          title: "LogOut successful!.",
+          showConfirmButton: false,
+          timer: 1500,
+        });
+      })
+      .catch((error) => {
+        console.log(error.message);
+      });
+  };
 
   const navItems = (
     <>
@@ -49,7 +68,7 @@ const Navbar = () => {
             className="btn btn-ghost normal-case text-2xl md:text-3xl font-semibold"
           >
             <img className="w-[45px]" src="/workfinders-logo.png" alt="" />
-            WorkFinders
+            <span className="text-indigo-500">Work</span>Finders
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -60,20 +79,19 @@ const Navbar = () => {
             <>
               <img
                 style={{ width: "56px", height: "53px" }}
-                // src={user.photoURL}
-                src=""
+                src={user.photoURL}
                 className="mr-3 rounded-full border-gray-100 p-1"
               />
               <button
-                // onClick={handleLogOut}
-                className="btn btn-outline btn-info"
+                onClick={handleLogOut}
+                className="btn px-5 border-0 bg-gradient-to-r from-indigo-400 to-cyan-400"
               >
                 Sign Out
               </button>
             </>
           ) : (
-            <Link to="/login">
-              <button className="btn px-5 border-0 bg-[#6dd5ed]">
+            <Link to="/sign-in">
+              <button className="btn px-5 border-0 bg-gradient-to-r from-indigo-400 to-cyan-400">
                 Sign In
               </button>
             </Link>
