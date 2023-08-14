@@ -9,10 +9,10 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li className="text-lg">
-        <Link to="/all-instructors">Instructors</Link>
+        <Link to="/">About</Link>
       </li>
       <li className="text-lg">
-        <Link to="/all-classes">Classes</Link>
+        <Link to="/">Contact Us</Link>
       </li>
     </>
   );
@@ -48,8 +48,8 @@ const Navbar = () => {
             to="/"
             className="btn btn-ghost normal-case text-2xl md:text-3xl font-semibold"
           >
-            <img className="w-[45px]" src="/logo.png" alt="" />
-            Music Fairy
+            <img className="w-[45px]" src="/workfinders-logo.png" alt="" />
+            WorkFinders
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -68,12 +68,14 @@ const Navbar = () => {
                 // onClick={handleLogOut}
                 className="btn btn-outline btn-info"
               >
-                Log Out
+                Sign Out
               </button>
             </>
           ) : (
             <Link to="/login">
-              <button className="btn px-5 border-0 bg-[#6dd5ed]">Login</button>
+              <button className="btn px-5 border-0 bg-[#6dd5ed]">
+                Sign In
+              </button>
             </Link>
           )}
         </div>
