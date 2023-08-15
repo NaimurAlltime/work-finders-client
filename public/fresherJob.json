@@ -1,0 +1,144 @@
+[
+  {
+    "logo": "https://www.vectorlogo.zone/logos/google/google-ar21.svg",
+    "title": "Backend Engineer Intern",
+    "company": "Google LLC",
+    "workPlace": "Onsite",
+    "location": "Dhaka, Bangladesh",
+    "jobType": "Full Time",
+    "salary": "120K-160K",
+    "description": "Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search.",
+    "responsibility": [
+      "Analyze and improve Android system performance from the entire IO stack perspective.",
+      "Control IOs to mitigate performance/power/stability problems on flash storages.",
+      "Maintain kernel patches across various kernel branches such as mainline, AOSP, Pixel, and SoC.",
+      "Explore new storage technology and leading the storage industry."
+    ],
+    "requirements": "Master's degree or PhD in Computer Science or related technical field",
+    "experiences": "3 years of experience working with embedded operating systems and",
+
+    "contact": {
+      "phone": "1-800-419-0157",
+      "email": "support-in@google.com "
+    }
+  },
+  {
+    "logo": "https://www.vectorlogo.zone/logos/oracle/oracle-ar21.svg",
+    "title": "Junior Java Programmer",
+    "company": "Oracle Corporation",
+    "workPlace": "Remote",
+    "location": "Virginia, United States",
+    "jobType": "Full Time",
+    "salary": "40K-85K",
+    "description": "Solve complex problems related to infrastructure cloud services and build automation to prevent problem recurrence. Design, write, and deploy software to improve the availability, scalability, and efficiency of Oracle products and services. Design and develop designs, architectures, standards, and methods for large-scale distributed systems.",
+    "responsibility": [
+      "Deploy and operate large scale mobile build pipelines in a cloud native environment",
+      "Improve our offerings through performance and reliability analysis",
+      "Diagnose and resolve issues in the build pipeline",
+      "Participate in system design consulting, platform management, and capacity planning",
+      "Anticipate the future and deliver those concepts to reality",
+      "Participate in a global break-fix rotation"
+    ],
+    "requirements": "Master's degree in Computer Science & Engineering.",
+    "experiences": "At least 4 year(s) in this field",
+    "contact": {
+      "phone": "+962 6 5200802",
+      "email": "contact_ww@oracle.com"
+    }
+  },
+  {
+    "logo": "https://www.logo.wine/a/logo/DXC_Technology/DXC_Technology-Logo.wine.svg",
+    "title": "Full Stack Developer Intern",
+    "company": "DXC Technology",
+    "workPlace": "Onsite",
+    "location": "California, United States",
+    "jobType": "Full Time",
+    "salary": "50K-80K",
+    "description": "Full Stack Developer Intern team is seeking an experienced Principal Hardware Architect to help architect and model Artificial Intelligence (AI) hardware and systems in large-scale datacenters. Our team operates at the intersection of AI algorithmic innovation, purpose-built AI hardware and systems, and software.",
+    "responsibility": [
+      "Performance estimation and modeling of AI workloads on datacenter scale systems.",
+      "Initiate, scope and undertake projects with multiple external partners and stakeholders.",
+      "Drive principled, major technical decisions.",
+      "Create and maintain best practices for high quality product engineering, development best practices and conduct architectural reviews.",
+      "Awareness and ability to stay abreast of upcoming technical trends and internalroadmaps, including monitoring of latest AI research trends."
+    ],
+    "requirements": "7+ years of technical engineering experienceOR Bachelor's degree in Electrical Engineering",
+    "experiences": "At least 5 year(s) in this field",
+    "contact": {
+      "phone": "(425) 882-8080",
+      "email": "jane.doe@microsoft.com"
+    }
+  },
+  {
+    "logo": "https://cdn.freebiesupply.com/logos/thumbs/2x/sas-6-logo.png",
+    "title": "Junior Software Engineer",
+    "company": "SAS",
+    "workPlace": "Remote",
+    "location": "USA, Seattle",
+    "jobType": "Full Time",
+    "salary": "70K-90K",
+    "description": "Database Administrators are professionals who ensure that all databases, including those for financial or customer information, stay up-to-date with policies and procedures in place to protect against data loss.",
+    "responsibility": [
+      "Experience supporting large-scale high-availability systems in a production environment.",
+      "Passion for cloud database and streaming technologies – understanding of public and hybrid cloud platforms.",
+      "Deep knowledge of AWS database and streaming services, GIT,",
+      "Familiarity with at least one scripting language (shell, Python, Perl)",
+      "Storage engineering experience, including NAS, SAN, SSD, multi-pathing and caching"
+    ],
+    "requirements": "Bachelor of Science (BSc) in Computer Science & Engineering.",
+    "experiences": "At least 3/4 year(s) in this field",
+    "contact": {
+      "phone": "1-888-280-4331",
+      "email": "ics-reply@amazon.com"
+    }
+  },
+  {
+    "logo": "https://www.vectorlogo.zone/logos/ibm/ibm-ar21.svg",
+    "title": "Full Stack Developer",
+    "company": "IBM Corporation",
+    "workPlace": "Onsite",
+    "location": "khulna, Bangladesh",
+    "jobType": "Full Time",
+    "salary": "40K-65K",
+    "description": "This company is looking for an experienced Senior React Developer to join our team. The ideal candidate should be specialized in ecommerce and have a strong understanding of React and its ecosystem",
+    "responsibility": [
+      "Skills in MVC based PHP framework such as Laravel, CodeIgniter.",
+      "Excellent knowledge on cross-browser layout design.",
+      "Experience in relational databases (MySQL/PostgreSQL).",
+      "Experienced in Project deployment on servers",
+      "Clear understanding of web architecture, object-oriented programming.",
+      "Ability to code, design, develop, and test independently.",
+      "Ability to deliver the bug-free project.."
+    ],
+    "requirements": "Bachelor of Science (BSc) in Computer Science & Engineering.",
+    "experiences": "At least 3 year(s) in this field",
+    "contact": {
+      "phone": "(914) 499-7777",
+      "email": "infoibm@us.ibm.com"
+    }
+  },
+  {
+    "logo": "https://www.vectorlogo.zone/logos/shopify/shopify-ar21.svg",
+    "title": "React.js Developer",
+    "company": "Shopify Inc.",
+    "workPlace": "Onsite",
+    "location": "Sylhet, Bangladesh",
+    "jobType": "Full Time",
+    "salary": "30K-45K",
+    "description": "React.js developers design and implement user interface components for JavaScript-based web and mobile applications using the React open-source library ecosystem.",
+    "responsibility": [
+      "Design and implementation of low-latency, high-availability, and performing applications",
+      "Implementation of security and data protection",
+      "Good understanding of CSS-3, CSS frameworks and SCSS/SASS, Responsive design, GIT,",
+      "Figma/Adobe XD/Sketch",
+      "Write clean, maintainable, and efficient code",
+      "Collaborate with cross-functional teams to define, design, and ship new features"
+    ],
+    "requirements": "Bachelor of Science (BSc) in Computer Science & Engineering.",
+    "experiences": "At least 2 year(s) in this field",
+    "contact": {
+      "phone": "888-746-7439",
+      "email": "support@shopify.com"
+    }
+  }
+]
