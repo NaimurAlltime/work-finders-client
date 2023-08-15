@@ -38,7 +38,14 @@ const Job = ({ job }) => {
   const { _id, logo, title, company, workPlace, location, jobType, salary } =
     job;
   return (
-    <div className="pb-4">
+    <div
+      className="pb-4"
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+    >
       <img className="w-40 h-14 pr-8" src={logo} alt="" />
       <h3 className="text-3xl font-medium mt-3"> {title} </h3>
       <h5 className="text-2xl text-gray-600 font-medium mt-2"> {company} </h5>

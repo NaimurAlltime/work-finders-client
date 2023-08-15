@@ -12,7 +12,14 @@ const Banner = () => {
     setDropdownOpen(false);
   };
   return (
-    <div className="mt-3 md:flex justify-between items-center md:ml-8">
+    <div
+      className="mt-3 md:flex justify-between items-center md:ml-8"
+      data-aos="fade-down"
+      data-aos-offset="100"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+    >
       <div className="md:w-3/5 py-7">
         <h6 className="text-6xl font-bold leading-tight">
           One Step
@@ -89,7 +96,9 @@ const Banner = () => {
                   onClick={handleDropdownItemClick}
                   className="block px-4 py-2 hover:bg-gray-100 transition w-full text-left"
                 >
-                  My Profile section
+                  <a href="https://drive.google.com/file/d/1mV-qwb1iLNjKmO7mVg2_AhZQvP5nZ1bs/view?usp=sharing">
+                    My Profile section
+                  </a>
                 </button>
                 <button
                   onClick={handleDropdownItemClick}
@@ -102,7 +111,7 @@ const Banner = () => {
           </div>
 
           {/* Search Button */}
-          <button className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none">
+          <button className="px-4 py-2 bg-gradient-to-r from-indigo-400 to-cyan-400 text-white rounded-md hover:bg-blue-600 focus:outline-none">
             Search
           </button>
         </div>
@@ -111,6 +120,11 @@ const Banner = () => {
         <img
           src="https://img.freepik.com/free-photo/happy-business-man-shirt-with-crossed-arms-looking-away_171337-5011.jpg?w=900&t=st=1681068387~exp=1681068987~hmac=818d200675e0ba66c7b77b04dec46f558f97bbe43dc659fde18ba79072b11e4e"
           alt=""
+          data-aos="fade-down"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
         />
       </div>
     </div>

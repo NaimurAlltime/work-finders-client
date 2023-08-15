@@ -15,7 +15,15 @@ const ExperienceJobs = () => {
   };
 
   return (
-    <div id="ExperienceJobs" className="mt-24 md:ml-6">
+    <div
+      id="ExperienceJobs"
+      className="mt-24 md:ml-6"
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+    >
       <h2 className="text-4xl font-semibold text-center">Experience Jobs</h2>
       <p className="text-center mt-5">
         Employers tend to shudder at the spam on big job sites. That makes list
@@ -31,7 +39,7 @@ const ExperienceJobs = () => {
       <div className="text-center">
         <button
           onClick={handleClick}
-          className="bg-indigo-500 mt-4 px-5 py-3 hover:bg-indigo-600 rounded-md text-lg text-white"
+          className="bg-gradient-to-r from-indigo-400 to-cyan-400 mt-4 px-5 py-3 hover:bg-indigo-600 rounded-md text-lg text-white"
         >
           See All Jobs
         </button>

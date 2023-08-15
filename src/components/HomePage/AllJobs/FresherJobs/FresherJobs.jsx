@@ -23,7 +23,14 @@ const FresherJobs = () => {
         print classifieds.
       </p>
 
-      <div className="md:grid grid-cols-2 gap-8 mt-7">
+      <div
+        className="md:grid grid-cols-2 gap-8 mt-7"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+      >
         {showAll
           ? jobs.map((job, idx) => <Job key={idx} job={job} />)
           : jobs.slice(0, 6).map((job, idx) => <Job key={idx} job={job} />)}
@@ -31,7 +38,7 @@ const FresherJobs = () => {
       <div className="text-center">
         <button
           onClick={handleClick}
-          className="bg-indigo-500 mt-4 px-5 py-3 hover:bg-indigo-600 rounded-md text-lg text-white"
+          className="bg-gradient-to-r from-indigo-400 to-cyan-400 mt-4 px-5 py-3 hover:bg-indigo-600 rounded-md text-lg text-white"
         >
           See All Jobs
         </button>

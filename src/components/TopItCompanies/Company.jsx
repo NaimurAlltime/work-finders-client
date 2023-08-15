@@ -1,23 +1,14 @@
-// import FmdGoodOutlinedIcon from "@mui/icons-material/FmdGoodOutlined";
-
 const Company = ({ topCompany }) => {
   const { logo, company, description } = topCompany;
   return (
-    // <div className="pb-4">
-    //   <img className="w-40 h-14 pr-8" src={logo} alt="" />
-    //   <h5 className="text-2xl text-gray-600 font-medium mt-2"> {company} </h5>
-    //   <div className="flex text-xl text-gray-600 font-medium mt-2">
-    //     <p className="mr-4">
-    //       <FmdGoodOutlinedIcon></FmdGoodOutlinedIcon> {location}
-    //     </p>
-    //   </div>
-    //   <Link to={`/job/`}>
-    //     <button className="bg-indigo-500 mt-4 px-4 py-2 hover:bg-indigo-600 rounded-md text-lg text-white">
-    //       Apply
-    //     </button>
-    //   </Link>
-    // </div>
-    <div className="card card-compact w-96 bg-base-100 shadow-xl">
+    <div
+      className="card card-compact w-96 bg-base-100 shadow-xl"
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+    >
       <figure>
         <img src={logo} className="w-40 h-14" alt="Shoes" />
       </figure>

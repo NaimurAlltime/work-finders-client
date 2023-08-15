@@ -1,6 +1,14 @@
 const Blog = () => {
   return (
-    <div className="mt-20" id="blog">
+    <div
+      className="mt-20"
+      id="blog"
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+    >
       <h2 className="text-4xl font-semibold text-center mb-5">Blog</h2>
       <div className="w-full md:flex gap-12 mt-4">
         <div className="w-1/2">
