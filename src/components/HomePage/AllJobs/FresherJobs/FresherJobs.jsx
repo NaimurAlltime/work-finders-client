@@ -15,7 +15,7 @@ const FresherJobs = () => {
   };
 
   return (
-    <div className="mt-24 md:mx-20">
+    <div className="mt-24 md:mx-20" id="FresherJobs">
       <h2 className="text-4xl font-semibold text-center">Fresher Jobs</h2>
       <p className="text-center mt-5">
         Employers tend to shudder at the spam on big job sites. That makes list
@@ -25,7 +25,7 @@ const FresherJobs = () => {
 
       <div className="md:grid grid-cols-2 gap-8 mt-7">
         {showAll
-          ? jobs.map((job) => <Job key={job.id} job={job} />)
+          ? jobs.map((job) => <Job key={job._id} job={job} />)
           : jobs.slice(0, 4).map((job) => <Job key={job.id} job={job} />)}
       </div>
       <div className="text-center">

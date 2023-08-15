@@ -2,20 +2,16 @@ import TopItCompanies from "../../TopItCompanies/TopItCompanies";
 import ExperienceJobs from "../AllJobs/ExperienceJobs/ExperienceJobs";
 import FresherJobs from "../AllJobs/FresherJobs/FresherJobs";
 import Banner from "../Banner/Banner";
+import Blog from "../Blog/Blog";
 
 const Home = () => {
   return (
     <div>
       <Banner></Banner>
-      <div id="FresherJobs">
-        <FresherJobs></FresherJobs>
-      </div>
-      <div id="ExperienceJobs">
-        <ExperienceJobs></ExperienceJobs>
-      </div>
-      <div id="ExperienceJobs">
-        <TopItCompanies></TopItCompanies>
-      </div>
+      <FresherJobs></FresherJobs>
+      <ExperienceJobs></ExperienceJobs>
+      <TopItCompanies></TopItCompanies>
+      <Blog></Blog>
     </div>
   );
 };

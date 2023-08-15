@@ -83,7 +83,7 @@ const Banner = () => {
                   onClick={handleDropdownItemClick}
                   className="block px-4 py-2 hover:bg-gray-100 transition w-full text-left"
                 >
-                  Top IT Companies
+                  <a href="#topItCompany">Top IT Companies</a>
                 </button>
                 <button
                   onClick={handleDropdownItemClick}
