@@ -5,7 +5,7 @@ const ExperienceJobs = () => {
   const [jobs, setJobs] = useState([]);
   const [showAll, setShowAll] = useState(false);
   useEffect(() => {
-    fetch("http://localhost:5000/all-jobs")
+    fetch("http://localhost:5000/experience-jobs")
       .then((res) => res.json())
       .then((data) => setJobs(data));
   }, []);
@@ -15,7 +15,7 @@ const ExperienceJobs = () => {
   };
 
   return (
-    <div id="ExperienceJobs" className="mt-24 md:mx-20">
+    <div id="ExperienceJobs" className="mt-24 md:ml-6">
       <h2 className="text-4xl font-semibold text-center">Experience Jobs</h2>
       <p className="text-center mt-5">
         Employers tend to shudder at the spam on big job sites. That makes list
@@ -25,8 +25,8 @@ const ExperienceJobs = () => {
 
       <div className="md:grid grid-cols-2 gap-8 mt-7">
         {showAll
-          ? jobs.map((job) => <Job key={job._id} job={job} />)
-          : jobs.slice(0, 4).map((job) => <Job key={job.id} job={job} />)}
+          ? jobs.map((job, idx) => <Job key={idx} job={job} />)
+          : jobs.slice(0, 6).map((job, idx) => <Job key={idx} job={job} />)}
       </div>
       <div className="text-center">
         <button

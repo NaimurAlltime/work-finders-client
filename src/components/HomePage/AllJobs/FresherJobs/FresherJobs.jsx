@@ -15,7 +15,7 @@ const FresherJobs = () => {
   };
 
   return (
-    <div className="mt-24 ml-6" id="FresherJobs">
+    <div className="mt-24 md:ml-6" id="FresherJobs">
       <h2 className="text-4xl font-semibold text-center">Fresher Jobs</h2>
       <p className="text-center mt-5">
         Employers tend to shudder at the spam on big job sites. That makes list
