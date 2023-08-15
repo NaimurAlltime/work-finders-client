@@ -11,7 +11,7 @@ const Blog = () => {
     >
       <h2 className="text-4xl font-semibold text-center mb-5">Blog</h2>
       <div className="w-full md:flex gap-12 mt-4">
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           <p className="text-2xl">
             <span className="text-2xl font-semibold">Question-1:</span>What is
             the difference between state and props?
@@ -29,7 +29,7 @@ const Blog = () => {
             of a component.
           </p>
         </div>
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           <p className="text-2xl">
             <span className="text-2xl font-semibold">Question-2:</span> What is
             the virtual DOM and how does it work?
@@ -48,7 +48,7 @@ const Blog = () => {
         </div>
       </div>
       <div className="w-full md:flex gap-12 mt-4">
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           <p className="text-2xl">
             <span className="text-2xl font-semibold">Question-3:</span> What is
             the meaning of JSX?
@@ -62,7 +62,7 @@ const Blog = () => {
             overall performance.
           </p>
         </div>
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           <p className="text-2xl">
             <span className="text-2xl font-semibold">Question-4:</span> What is
             React Router?
@@ -77,7 +77,7 @@ const Blog = () => {
         </div>
       </div>
       <div className="w-full md:flex gap-12 mt-4">
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           <p className="text-2xl">
             <span className="text-2xl font-semibold">Question-5:</span> What is
             Redux?
@@ -90,7 +90,7 @@ const Blog = () => {
             applications state management.
           </p>
         </div>
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           <p className="text-2xl">
             <span className="text-2xl font-semibold">Question-6:</span> What is
             the use of refs?
@@ -104,7 +104,7 @@ const Blog = () => {
         </div>
       </div>
       <div className="w-full md:flex gap-12 mt-4">
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           <p className="text-2xl">
             <span className="text-2xl font-semibold">Question-7:</span> What is
             Node.js?
@@ -117,7 +117,7 @@ const Blog = () => {
             version 15.14, was released in April 2021.
           </p>
         </div>
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           <p className="text-2xl">
             <span className="text-2xl font-semibold">Question-8:</span> Why is
             Express.js used?
