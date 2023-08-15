@@ -1,10 +1,41 @@
 import FmdGoodOutlinedIcon from "@mui/icons-material/FmdGoodOutlined";
 import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlined";
-import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
+import { AuthContext } from "../../../providers/AuthProvider";
 
 const Job = ({ job }) => {
+  const { user } = useContext(AuthContext);
+  const navigate = useNavigate();
+
+  const handleApplyJob = () => {
+    if (user && user.email) {
+      Swal.fire({
+        position: "top-end",
+        icon: "success",
+        title: "job apply successful",
+        showConfirmButton: false,
+        timer: 1500,
+      });
+    } else {
+      Swal.fire({
+        title: "apply, please first Login now?",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "login now!",
+      }).then((result) => {
+        if (result.isConfirmed) {
+          navigate("/sign-in");
+        }
+      });
+    }
+  };
+
   //   console.log(feature);
-  const { id, logo, title, company, workPlace, location, jobType, salary } =
+  const { _id, logo, title, company, workPlace, location, jobType, salary } =
     job;
   return (
     <div className="pb-4">
@@ -28,11 +59,12 @@ const Job = ({ job }) => {
           {salary}
         </p>
       </div>
-      <Link to={`/job/${id}`}>
-        <button className="bg-indigo-500 mt-4 px-4 py-2 hover:bg-indigo-600 rounded-md text-lg text-white">
-          Apply
-        </button>
-      </Link>
+      <button
+        onClick={() => handleApplyJob(_id)}
+        className="bg-indigo-500 mt-4 px-4 py-2 hover:bg-indigo-600 rounded-md text-lg text-white"
+      >
+        Apply
+      </button>
     </div>
   );
 };
