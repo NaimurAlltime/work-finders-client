@@ -1,0 +1,38 @@
+[
+  {
+    "logo": "https://brainstation-23.com/wp-content/uploads/2019/02/BS-Logo-Blue_Hr.svg",
+    "company": "Brain Station 23",
+    "location": "Mohakhali C/A, Dhaka 1212, Bangladesh",
+    "description": "In 2006, with little capital but a pocketful of belief, CEO, Raisul Kabir started Brain Station 23, a software company, right after graduating from BUET. They are specialist enterprise, customized web applications, and mobile software development service providers, and have been catering to the needs of both local and international clients. Moreover, Brain Station 23 is services also cover areas of ERP solutions, cloud services, artificial intelligence, machine learning, etc. Brain Station 23 is headquarter is located in Badda, Dhaka."
+  },
+  {
+    "logo": "http://datasoft-bd.com/wp-content/themes/DataSoft/img/DS-logo.png",
+    "company": "Datasoft",
+    "location": "Mirpur Road, Shyamoli, Dhaka-1207, Bangladesh",
+    "description": "Since 1998, DataSoft has had a successful track record of delivering innovative, bug-free, and cost-effective technical services to customers in both corporate and public sector undertakings. The company’s service package includes software development solutions, software testing as a service, system management and implementation, Datasoft advisory services, infrastructure as a service, and education & training. In addition to that, their products are developed maintaining ISO 9001:2008 standards. They work in many different industries like Banking and finance, Port & Logistics, Govt & Defense, SMEs & Development, Automobile, and Telecommunication."
+  },
+  {
+    "logo": "https://bjitgroup.com/static/svg/common/bjit-logo2.svg",
+    "company": "BJIT",
+    "location": "Dhaka, Bangladesh",
+    "description": "In 2006, with little capital but a pocketful of belief, CEO, Raisul Kabir started Brain Station 23, a software company, right after graduating from BUET. They are specialist enterprise, customized web applications, and mobile software development service providers, and have been catering to the needs of both local and international clients. Moreover, Brain Station 23 is services also cover areas of ERP solutions, cloud services, artificial intelligence, machine learning, etc. Brain Station 23 is headquarter is located in Badda, Dhaka."
+  },
+  {
+    "logo": "https://www.vectorlogo.zone/logos/microsoft/microsoft-ar21.svg",
+    "company": "Microsoft Corporation",
+    "location": "Redmond, Washington, United States",
+    "description": "Microsoft Corporation is an American multinational technology corporation headquartered in Redmond, Washington. Microsoft's best-known software products are the Windows line of operating systems, the Microsoft 365 suite of productivity applications, and the Internet Explorer and Edge web browsers."
+  },
+  {
+    "logo": "https://www.vectorlogo.zone/logos/ibm/ibm-ar21.svg",
+    "company": "IBM Corporation",
+    "location": "Armonk, New York, United States",
+    "description": "The International Business Machines Corporation, nicknamed Big Blue, is an American multinational technology corporation headquartered in Armonk, New York and is present in over 175 countries."
+  },
+  {
+    "logo": "https://www.vectorlogo.zone/logos/oracle/oracle-ar21.svg",
+    "company": "Oracle Corporation",
+    "location": "Austin, Texas, United States",
+    "description": "Oracle Corporation is an American multinational computer technology company headquartered in Austin, Texas, United States. In 2020, Oracle was the third-largest software company in the world by revenue and market capitalization."
+  }
+]
