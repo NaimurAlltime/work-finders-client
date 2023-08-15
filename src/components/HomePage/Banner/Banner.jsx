@@ -96,7 +96,7 @@ const Banner = () => {
                   onClick={handleDropdownItemClick}
                   className="block px-4 py-2 hover:bg-gray-100 transition w-full text-left"
                 >
-                  <a href="https://drive.google.com/file/d/1mV-qwb1iLNjKmO7mVg2_AhZQvP5nZ1bs/view?usp=sharing">
+                  <a href="https://drive.google.com/file/d/1uPDjot5TyKaZdeNA8GH7b_u_5f_UMoKD/view?usp=sharing">
                     My Profile section
                   </a>
                 </button>

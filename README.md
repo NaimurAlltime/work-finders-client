@@ -1,8 +1,10 @@
-# React + Vite
+# Work Finders
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Site: https://work-finders.web.app/
 
-Currently, two official plugins are available:
+### My project name Work Finders. It is Job Portal website. Simple description in my project:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- The navbar should have a website name and navigation options like Home, About, Contact Us and Sign In button
+- The homepage popular a Toggle button for Job Seeker and Job poster,Fresher Jobs, Experienced Jobs, Top IT Companies, My Profile section, Blog section
+- firebase authentication system integration
+- mongodb database connection

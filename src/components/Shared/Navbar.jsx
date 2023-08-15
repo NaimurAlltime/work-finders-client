@@ -28,10 +28,10 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li className="text-lg">
-        <Link to="/">About</Link>
+        <Link to="/about">About</Link>
       </li>
       <li className="text-lg">
-        <Link to="/">Contact Us</Link>
+        <Link to="/contact">Contact Us</Link>
       </li>
     </>
   );

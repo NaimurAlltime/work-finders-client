@@ -4,7 +4,7 @@ import Company from "./Company";
 const TopItCompanies = () => {
   const [itCompany, setItCompany] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/it-company")
+    fetch("https://work-finders-server.vercel.app/it-company")
       .then((res) => res.json())
       .then((data) => setItCompany(data));
   }, []);
